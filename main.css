@@ -1,3 +1,55 @@
+/*
+Police d'écriture Montserrat importée depuis Google Fonts, source du site : https://www.w3schools.com/howto/tryit.asp?font=Montserrat 
+*/
+
+h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+}
+
+h5 {
+    font-family: Montserrat, sans-serif;
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+}
+
+span {
+    font-family: Montserrat, sans-serif;
+}
+
+li {
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    font-family: Montserrat, sans-serif;
+}
+
+button {
+    font-family: Montserrat, sans-serif;
+}
+
+/*
+Définition de la structure du site
+*/
+
 #Header{
     background-color: rgba(83, 166, 238, 0.397);
     width: 100%;
@@ -16,15 +68,15 @@
     float: left;
 }
 
+/* 
+Définition des styles du header 
+*/
+
 #logo{
     width: auto; /* Ajuste la largeur du logo */
     max-width: 200px;
     height: auto; /*Ajuste la hauteur du logo de façon à conserver ses proportions */
 }
-
-/* 
-Définition des styles du header 
-*/
 
 #header_full_container{
     width: 100%;

@@ -15,3 +15,44 @@
     width: 100%;
     float: left;
 }
+
+#logo{
+    width: auto; /* Ajuste la largeur du logo */
+    max-width: 200px;
+    height: auto; /*Ajuste la hauteur du logo de façon à conserver ses proportions */
+}
+
+/* 
+Définition des styles du header 
+*/
+
+#header_full_container{
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+#header_left_container{
+    width: 50%;
+    display: flex;
+    float: left;
+}
+
+#header_right_container{
+    width: 50%;
+    float: right;
+}
+
+#header_right_container_research{
+    margin: 80px;
+    float: right;
+
+}
+
+.research{
+    background-color: white;
+    border: 1px solid #000000;
+    text-align: center;
+    max-height: 30px;
+    margin: 10px;
+}

@@ -108,3 +108,52 @@ Définition des styles du header
     max-height: 30px;
     margin: 10px;
 }
+
+/*
+ Définition des styles pour les éléments du contenu 
+ */
+ 
+.element-container-box{
+    background-color: rgb(115, 193, 230);
+    border-radius: 30px;
+    margin: 80px;
+    float: center;
+    position: relative;
+    display: grid;
+    gap: 10px;
+}
+
+.element{
+    background-color:rgb(59, 187, 219);
+    border-radius: 30px;
+    margin: 5px; 
+    float: center;
+}
+
+.element-title{
+    background-color: rgb(40, 200, 206);
+    border-radius: 10px;
+    margin: 15px;
+    float: center;
+    font-size: 30px;
+}
+
+.element-subtitle{
+    background-color: rgb(40, 200, 206);
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+    font-size: 20px;
+}
+
+.element-paragraph{
+    background-color: rgb(40, 200, 206);
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+    font-size: 15px;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}

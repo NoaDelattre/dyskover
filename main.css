@@ -40,6 +40,7 @@ li {
 
 a {
     font-family: Montserrat, sans-serif;
+    color: black;
 }
 
 button {
@@ -63,7 +64,7 @@ Définition de la structure du site
 }
 
 #Footer{
-    background-color: rgba(22, 235, 32, 0.767);
+    background-color: rgba(73, 172, 34, 0.767);
     width: 100%;
     float: left;
 }
@@ -110,7 +111,7 @@ Définition des styles du header
 }
 
 /*
- Définition des styles pour les éléments du contenu 
+ Définition des styles pour les éléments du corps 
  */
  
 .element-container-box{
@@ -119,7 +120,7 @@ Définition des styles du header
     margin: 80px;
     float: center;
     position: relative;
-    display: grid;
+    display: grid;  /* Dispose les éléments sous la forme d'une grille */
     gap: 10px;
 }
 
@@ -156,4 +157,36 @@ Définition des styles du header
 
 .poppins-font {
     font-family: 'Poppins', sans-serif;
+}
+
+/*
+ Définition des styles pour les éléments du footer 
+ */
+
+#footer-links{
+    background-color: rgba(29, 148, 25, 0.63);
+    border-radius: 10px;
+    float: left;
+    margin: 25px;
+    position: relative;
+    display: grid;
+}
+
+#footer-content{
+    float: center;
+}
+
+#bas-de-page{
+    float: center;
+}
+
+.footer-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.footer-paragraph{
+    font-size: 20px;
 }

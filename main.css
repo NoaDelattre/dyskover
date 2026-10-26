@@ -47,6 +47,10 @@ button {
     font-family: Montserrat, sans-serif;
 }
 
+em {
+    font-family: Montserrat, sans-serif;
+}
+
 /*
 Définition de la structure du site
 */
@@ -155,6 +159,29 @@ Définition des styles du header
     font-size: 15px;
 }
 
+.element-image{
+    background-color: rgb(40, 200, 206);
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+    display: grid;
+    font-size: 15px;
+}
+
+.grande-image{
+    width: auto;
+    height: auto;
+    max-width: 1024px;
+    max-height: 768px;
+}
+
+.element-citation{
+    background-color: rgb(40, 200, 206);
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 15px;
+}
+
 .poppins-font {
     font-family: 'Poppins', sans-serif;
 }
@@ -188,5 +215,82 @@ Définition des styles du header
 }
 
 .footer-paragraph{
+    font-size: 20px;
+}
+
+/*
+    Définition du style pour les petites images 
+*/
+
+.element-container-box2{
+    background-color: rgb(230, 203, 115);
+    border-radius: 30px;
+    margin: 80px;
+    float: center;
+    position: relative;
+    display: flex;  /* Dispose les éléments sous la forme d'une grille */
+    gap: 10px;
+}
+
+.element2{
+    background-color:rgb(219, 195, 59);
+    border-radius: 30px;
+    margin: 5px; 
+    float: center;
+}
+
+.element-title2{
+    background-color: rgb(219, 195, 59);
+    border-radius: 10px;
+    margin: 15px;
+    float: center;
+    font-size: 30px;
+}
+
+.element-subtitle2{
+    background-color: rgb(219, 195, 59);
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+    font-size: 20px;
+}
+
+.element-paragraph2{
+    background-color: rgb(219, 195, 59);
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+    font-size: 15px;
+}
+
+.element-image2{
+    background-color: rgb(219, 195, 59);
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+    display: grid;
+    font-size: 15px;
+}
+
+.petite-image2{
+    width: auto;
+    height: auto;
+    max-width: 640px;
+    max-height: 1000px;
+}
+
+.element-citation2{
+    background-color: rgb(219, 195, 59);
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 15px;
+}
+
+/*
+Définition du style des annonces de nouveautés
+*/
+
+.New {
+    color: red;
     font-size: 20px;
 }

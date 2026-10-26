@@ -64,7 +64,9 @@ Définition de la structure du site
 #Corps{
     background-color: whitesmoke;
     background-image: url(pictures/images/neurodiversityWebsiteFont2.jpg);
-    background-size: cover;
+    background-size: 100%; 
+    background-position: center; /* Spécifie la position de la miniature en arrière-plan */
+    background-repeat: repeat-y; /*Répète l'image dans l'axe des ordonnées */
     width: 100%;
     float: left;
 }

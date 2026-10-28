@@ -107,15 +107,24 @@ Définition des styles du header
 #header_right_container_research{
     margin: 80px;
     float: right;
-
+    background-color: rgb(25, 202, 233);
+    align-items: center; /* Aligne les boutons au centre dans l'axe des ordonnées, interprété grâce au display flex ci-dessus */
+    border-radius: 10px;
+    display: flex;
 }
 
 .research{
-    background-color: white;
+    background-color: rgb(236, 241, 241);
     border: 1px solid #000000;
     text-align: center;
-    max-height: 30px;
+    width: 100px;
+    height: 60px;
     margin: 10px;
+    border-radius: 10px;
+}
+
+.button-link{
+    text-align: center;
 }
 
 /*

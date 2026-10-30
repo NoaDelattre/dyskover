@@ -51,6 +51,14 @@ em {
     font-family: Montserrat, sans-serif;
 }
 
+form {
+    font-family: Montserrat, sans-serif;
+}
+
+label {
+    font-family: Montserrat, sans-serif;
+}
+
 /*
 Définition de la structure du site
 */
@@ -365,6 +373,22 @@ Définition du style des éléments divers
     border-radius: 10px;
     margin: 15px;
     font-size: 15px;
+}
+
+
+/*
+Définition des styles du formulaire
+*/
+
+.login-container{
+    background-color: orange;
+    float: center;
+    display: grid;
+    margin: 100px;
+}
+
+.login-text{
+    font-size: 20px;
 }
 
 /*

@@ -380,9 +380,14 @@ Définition du style des éléments divers
 Définition des styles du formulaire
 */
 
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .login-container{
     background-color: rgb(255, 239, 210);
-    float: center;
     display: grid;
     margin: 100px;
     width: 300px;
@@ -403,6 +408,22 @@ Définition des styles du formulaire
 }
 
 #username{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/*
+Définition du style de l'espace commentaire
+*/
+
+#Message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment{
+    background-color: rgb(160, 253, 168);
     border: 1px solid black;
     border-radius: 5px;
 }

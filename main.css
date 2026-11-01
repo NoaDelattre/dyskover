@@ -381,14 +381,30 @@ Définition des styles du formulaire
 */
 
 .login-container{
-    background-color: orange;
+    background-color: rgb(255, 239, 210);
     float: center;
     display: grid;
     margin: 100px;
+    width: 300px;
+}
+
+.login-container-elements{
+    background-color:burlywood;
+    float: center;
+    margin: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
 }
 
 .login-text{
     font-size: 20px;
+}
+
+#username{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 /*
